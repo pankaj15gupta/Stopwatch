@@ -1,7 +1,7 @@
 <h1> Stop watch</h1>
 The Stopwatch project was created using only vanilla Javascript with no libraries or frameworks.
 
-
+<br>
 The timer will start after the click event happens and keep running until it stops.
 
 We can also stop the timer after clicking the stop button.
