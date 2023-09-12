@@ -1,0 +1,88 @@
+body {
+    background-image: url(galaxy1.png);
+    background-size: contain;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* styling the complete stopwatch */
+
+.stopwatch {
+    background-color: #a2d8d8;
+   
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    height: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    
+}
+
+/* styling timer container  */
+
+.time {
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15rem;
+    left: 23%;
+    background-color: #f2f2f2;
+    font-size: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 12px 10px rgba(0, 0, 0, 0.3), -8px 12px 10px rgba(0, 0, 0, 0.3); 
+   
+}
+
+
+/* agjusting controler(button) to the bottom */
+
+.controls{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+}
+
+/* styling controler button */
+
+.controls button {
+    font-size: 25px;
+    padding: 10px 25px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color:#2a1cf1;
+    border: none;
+}
+
+/* while hovering to both the button */
+
+button:hover{
+    background-color: #7d74f5;
+}
+
+
+/* after clicking to start the button color gets change to red */
+#startStop.clicked{
+    background-color: rgb(236, 32, 32);
+}
+
+
+
+/* change color while hovering to stop */
+#startStop.clicked:hover{
+    background-color: rgb(236, 109, 109);
+}
+
+
+
+
+
